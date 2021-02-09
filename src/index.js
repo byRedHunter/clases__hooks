@@ -1,6 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import UseLayoutEffect from './components/useLayoutEffect/UseLayoutEffect'
+import MemoHook from './components/memos/MemoHook'
+//import Memorize from './components/memos/Memorize'
+//import UseLayoutEffect from './components/useLayoutEffect/UseLayoutEffect'
 //import MultipleCustomHooks from './components/examples/MultipleCustomHooks'
 //import FocusScreen from './components/useRef/FocusScreen'
 //import RealExampleUseRef from './components/useRef/RealExampleUseRef'
@@ -10,4 +12,4 @@ import UseLayoutEffect from './components/useLayoutEffect/UseLayoutEffect'
 /* import CounterWithCustomHook from './components/useState/CounterWithCustomHook' */
 //import HooksApp from './HooksApp'
 
-ReactDOM.render(<UseLayoutEffect />, document.getElementById('root'))
+ReactDOM.render(<MemoHook />, document.getElementById('root'))
