@@ -1,6 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import CallbackHook from './components/memos/CallbackHook'
+import { Padre } from './components/07-tarea-memo/Padre'
+//import CallbackHook from './components/memos/CallbackHook'
 //import MemoHook from './components/memos/MemoHook'
 //import Memorize from './components/memos/Memorize'
 //import UseLayoutEffect from './components/useLayoutEffect/UseLayoutEffect'
@@ -13,4 +14,4 @@ import CallbackHook from './components/memos/CallbackHook'
 /* import CounterWithCustomHook from './components/useState/CounterWithCustomHook' */
 //import HooksApp from './HooksApp'
 
-ReactDOM.render(<CallbackHook />, document.getElementById('root'))
+ReactDOM.render(<Padre />, document.getElementById('root'))
